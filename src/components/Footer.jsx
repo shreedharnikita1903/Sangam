@@ -43,7 +43,7 @@ function Footer() {
 					<ul>
 						<h3><b>Contact us</b></h3>
 						<li>Sangam Technologies & Solutions.</li>
-						<li>50/7, Ground Floor, MSR Complex, 39th cross, </li>
+						<li>50/7, Ground Floor, MSR Complex, 39th  </li>
 						<li> 16th Main, 4th T block, Bengaluru-560041</li>
 						<li>Email : info@.com</li>
 						<li>Phone: +91 1234567890 </li>
