@@ -1,0 +1,163 @@
+body {
+  font-family:'Trebuchet MS';
+  margin: 0;
+  padding: 0;
+}
+
+#content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+#left {
+  width: 40%;
+  position: relative;
+  align-items: flex-start;
+}
+
+#left img {
+  width: 90%;
+  height: auto;
+  
+}
+
+#overlay {
+  position: absolute;
+  top: 170px;
+  right: -0px; /* Adjust as needed */
+  width: 330px; /* Adjust as needed */
+  height: 250px; /* Set a fixed height */
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: left;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  overflow-y: auto; /* Allow vertical scrolling */
+}
+
+
+#right {
+  width: 40%;
+  background-color: white;
+  cursor: pointer;
+  padding: 30px;
+  right: 100px; 
+  
+}
+   
+.collapsible {
+  margin-bottom: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  padding: 3%   6%;
+}
+
+.collapsible-title {
+  cursor: pointer;
+  padding: 5px;
+  background-color: white;
+  margin: 0;
+  font-size: 18px;
+  color: black;
+  /* Added hover styles */
+  &:hover {
+    color: orange; /* Text color changes to orange on hover */
+  }
+}
+
+ 
+
+.plus-icon {
+  float: right;
+  font-weight: bold;
+}
+
+.collapsible-content {
+  padding: 5px;
+  display: none;
+  margin-left: 3%;
+}
+
+.collapsible-content.active {
+  display: block;
+}
+
+/*offerings*/
+
+.image-container img {
+  transition: opacity 0.5s ease-in-out;
+  }
+  
+  .text-overlay {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: rgb(58, 25, 25);
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  }
+  
+  .image-container:hover img {
+  opacity: 0.5;
+  }
+  
+  .image-container:hover .text-overlay {
+  opacity: 1;
+  }
+
+/*mycode*/
+
+
+@media only screen and (max-width: 50%) {
+  .collapsible-title {
+    cursor: pointer;
+    padding: 10px;
+    background-color: white;
+    margin: 0;
+    font-size: 18px;
+    color: black;
+    /* Added hover styles */
+    &:hover {
+      color: orange; /* Text color changes to orange on hover */
+    }
+  }
+}
+@media only screen and (max-width: 768px) {
+  .overlay {
+    position: static; /* Remove absolute positioning on small screens */
+    margin-top: 20px; /* Add spacing after the collapsible content */
+  }
+}
+@media only screen and (max-width: 768px) {
+  #content-wrapper {
+    flex-direction: column; /* Stack elements vertically on small screens */
+    text-align: center;
+  }
+
+  #left,
+  #right {
+    width: 100%; /* Make sections full width on small screens */
+    /*text-align: left;*/
+  }
+  #left img{
+    text-align: center;
+  }
+  .collapsible{
+    text-align: left;
+  }
+
+
+  #overlay {
+    position: static; /* Remove absolute positioning on small screens */
+    margin: 20px auto; /* Add spacing after the collapsible content */
+  }
+}
+
+
