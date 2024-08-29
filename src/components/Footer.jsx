@@ -42,7 +42,7 @@ function Footer() {
 				<div class="footer-item footer-box-3">
 					<ul>
 						<h3><b>Contact us</b></h3>
-						<li>Subhanu Technologies & Solutions.</li>
+						<li>Sangam Technologies & Solutions.</li>
 						<li>50/7, Ground Floor, MSR Complex, 39th cross, </li>
 						<li> 16th Main, 4th T block, Bengaluru-560041</li>
 						<li>Email : info@.com</li>
