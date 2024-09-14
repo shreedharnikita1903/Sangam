@@ -3,7 +3,7 @@ html{
 }
 .navbar {
 	/* background:#011b3d;  */
-	background:#04b9e6; 
+	background:#e63c04; 
 }
 .collapse a {
 	color:#131212;  
@@ -308,7 +308,8 @@ li:hover ul#submenu{
 			transition: transform 0.4s ease-in-out;
 		}
 		.container h2{
-			color:#ff9100;
+			/* color:#ff9100; */
+			color:#ff0400;
 		}
 		#services-faq{
 			height: 400px;
@@ -563,7 +564,8 @@ aalign-right{
 
 
 .container h2{
-	color:#ff9100;
+	/* color:#ff9100; */
+	color:#ff0400;
 }
 
 .testimonial-slider {
