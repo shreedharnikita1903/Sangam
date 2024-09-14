@@ -8,7 +8,7 @@ import Services from './components/Services';
 import It from './components/It';
 import Training from './components/Training';
 import Contact from './components/Contact';
-import Blog from './components/Blog';
+// import Blog from './components/Blog';
 import About from  './components/About';
 import Hr from  './components/Hr';
 const App = () => {
@@ -24,7 +24,7 @@ const App = () => {
           <Route path="/Hr" element={<Hr />} />
           <Route path="/training" element={<Training />} />
           <Route path="/contact" element={<Contact />} />
-          <Route path="/blog" element={<Blog />} />
+          {/* <Route path="/blog" element={<Blog />} /> */}
           <Route path="/About" element={<About />} />
         </Routes>
         <Footer />

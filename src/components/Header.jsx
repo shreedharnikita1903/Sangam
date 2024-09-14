@@ -31,12 +31,12 @@ function Header() {
 						<li><Link to="/Hr">HR Services</Link></li>
 						<li><Link to="/It">IT Services</Link></li>
 						<li><Link to="Training">Training Services</Link></li>
-						<li><Link to="Product">Products</Link></li>
+						{/* <li><Link to="Product">Products</Link></li> */}
 						</ul>
 					</li>
-					<li class="nav-item  ">
+					{/* <li class="nav-item  ">
 						<Link class="nav-link" to="/Blog">Blog</Link>
-					</li>
+					</li> */}
 					<li class="nav-item ">
 						<Link class="nav-link" to="/Contact">Contact</Link>
 					</li>

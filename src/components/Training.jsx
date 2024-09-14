@@ -32,7 +32,7 @@ function Training() {
             <br />
           </p>
           <div className="training">
-            <b>KiddyPi</b>
+            {/* <b>KiddyPi</b>
             <br />
             We Catering to students aged 6 to 16, KiddyPi is our division
             focused on STEM education.
@@ -48,7 +48,7 @@ function Training() {
             >
               www.kiddypi.com
             </Link>{" "}
-            to know more.
+            to know more. */}
             <br />
             <br />
             <b>RAPIDD Academy</b>
