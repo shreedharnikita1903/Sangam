@@ -2,7 +2,8 @@ html{
 	scroll-behavior: smooth;
 }
 .navbar {
-	background:#011b3d; 
+	/* background:#011b3d;  */
+	background:#04b9e6; 
 }
 .collapse a {
 	color:#131212;  
